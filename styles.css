@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+}
+
+/* Start header */
+
+header,
+.hero .pane1,
+footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* End header */
+
+.hero {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
