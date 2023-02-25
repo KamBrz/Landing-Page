@@ -95,8 +95,9 @@ button {
     background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 60px;
 }
 
 .title2 {
@@ -106,8 +107,9 @@ button {
 
 .boxes {
     display: flex;
+    align-items: baseline;
     gap: 40px;
-    padding-bottom: 100px;
+    align-content: center;
 }
 
 .box-text {
@@ -122,7 +124,38 @@ button {
 .box {
     height: 150px;
     width: 150px;
-    border: 3px #3b82f6;
+    border: 4px #3b82f6;
     border-style: solid;
     border-radius: 10px;
 }
+
+/* End pane2 */
+/* Start pane3 */
+
+.pane3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 720px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    width: 720px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: right;
+}
+
+/* End pane3 */
+/* Start pane4 */
+
