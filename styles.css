@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: #1f2937;
+    background-color: #F7A8B8;
 }
 
 /* Start header */
@@ -60,14 +60,12 @@ ul a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
 .left-box,
 .right-box {
-    height: 200px;
     width: 400px;
     flex-shrink: 0;
 }
@@ -79,19 +77,29 @@ ul a {
 
 button {
     margin-top: 10px;
-    background-color: #3b82f6;
+    background-color:#F7A8B8;
     color: #F9FAF8;
     border-radius: 10px;
-    border: none;
-    font-weight: bold;
+    border:2px #F9FAF8;
+    border-style: solid;
     padding: 10px 30px;
+    transition-duration: 0.4s;
+    font-weight: 700;
 }
 
+button:hover {
+    background-color:#9AC9A3;
+    color: #F9FAF8;
+  }
+
 .right-box {
-    background-color: #6d747d;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+}
+
+.right-box img {
+   height: 200px;
+   border-radius: 10px;
 }
 
 /* End pane1 */
@@ -127,10 +135,10 @@ button {
     gap: 10px;
 }
 
-.box {
+.box img {
     height: 150px;
     width: 150px;
-    border: 4px #3b82f6;
+    border: 4px #F4E26A;
     border-style: solid;
     border-radius: 10px;
 }
@@ -176,7 +184,7 @@ button {
 .blue-box {
     width: 800px;
     height: 150px;
-    background-color: #3b82f6;
+    background-color: #9AC9A3;
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -191,13 +199,20 @@ button {
 
 .right-side button {
     margin-top: 10px;
-    background-color: #3b82f6;
+    background-color: #9AC9A3;
     color: #F9FAF8;
     border-radius: 10px;
     border:2px #F9FAF8;
     border-style: solid;
     padding: 10px 30px;
+    transition-duration: 0.4s;
+    font font-weight: 700;
 }
+
+.right-side button:hover {
+    background-color:#F7A8B8;
+    color: #F9FAF8;
+  }
 
 /* End pane4 */
 /* Start footer */
@@ -207,6 +222,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0 0 80px;
 }
 
 /* End footer */
