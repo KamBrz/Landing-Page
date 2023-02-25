@@ -18,6 +18,7 @@ header {
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
+    height: 50px;
 }
 
 .logo {
@@ -192,3 +193,15 @@ button {
     border-style: solid;
     padding: 5px 20px;
 }
+
+/* End pane4 */
+/* Start footer */
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End footer */
